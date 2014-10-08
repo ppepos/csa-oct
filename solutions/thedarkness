@@ -1,0 +1,17 @@
+# thedarkness
+
+You start out with a single file with a `.exe` extension. `file` it:
+
+``` bash
+$ file pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.exe 
+pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.exe: PDF document, version 1.3```
+
+So we actually have a PDF with a cookie monster picture. you can either try and highlight the underlying text or use
+`pdftotext`:
+
+``` bash
+$ pdftotext pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.exe 
+$ cat pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.pdf.exe.txt
+$ flag{security_through_obscurity}
+```
+
